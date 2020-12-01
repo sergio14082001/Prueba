@@ -1,0 +1,134 @@
+
+/*html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    
+    text-align: center   ;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.row .col-xs-12  .col-sm-12 .col-md-3 .col-lg-5{
+
+    padding: 20px 20px
+}
+.row .col-xs-12  .col-sm-12 .col-md-12 .col-lg-7 {
+    padding: 10px 10px;
+    background-color: blue;
+}
+.row div img{
+    width: 400px;
+    height: 290px;
+}
+.imagen-stilo{
+    text-align: center;
+}
+.complementos{
+    display: flex;
+    justify-content: center;
+}
+.col{
+  width: 30%;
+  margin: auto;
+  height: 100px;
+}
+.col .col-xs-12  .col-sm-12 .col-md-3 .col-lg-5{
+
+    padding: 20px 20px;
+    width: 30%;
+    height: 100px;
+
+}
+.col .col-xs-12  .col-sm-12 .col-md-12 .col-lg-7 {
+    padding: 10px 10px;
+    background-color: blue;
+}
+.col div img{
+    width: 300px;
+    height: 200px;
+}*/
+.main{
+    display: flex;
+    margin: auto;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.Articulo1{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.Cuadro-img{ 
+    width:40%;
+    height: 400px;
+    
+}
+.Cuadro-Parrafo{
+    display: flex;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+.h2{
+  width: 100%;
+  height: 200px;
+}
+.p{
+  width: 100%;
+  height: 200px;
+}
+.img1{ 
+    width:500px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .Articulo1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin:0;
+    }
+    .Cuadro-img{
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    
+}
+/*.Relacionados{
+    margin: 30px 30px 30px 30px
+}*/
+img{
+    width: 300px;
+    height: 100%;
+}
+.card{
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
